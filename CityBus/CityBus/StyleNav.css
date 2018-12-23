@@ -1,0 +1,475 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Electrolize);
+
+@font-face {
+    font-family: "FontAwesome";
+    src: url('https://github.com/FortAwesome/Font-Awesome/raw/master/font/fontawesome-webfont.eot');
+    src: url('https://github.com/FortAwesome/Font-Awesome/raw/master/font/fontawesome-webfont.eot?#iefix') format('eot'), url('https://github.com/FortAwesome/Font-Awesome/raw/master/font/fontawesome-webfont.woff') format('woff'), url('https://github.com/FortAwesome/Font-Awesome/raw/master/font/fontawesome-webfont.ttf') format('truetype'), url('https://github.com/FortAwesome/Font-Awesome/raw/master/font/fontawesome-webfont.svg#FontAwesomeRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: FontAwesome;
+}
+
+li {
+    font-family: 'Electrolize';
+}
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url('Images/background2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+    height: 360px;
+    font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+    position: relative;
+    top: 20px;
+    left: 0px;
+    height: 343px;
+}
+
+#wrapper2 {
+    position: relative;
+    background: rgba(62, 126, 91, 0.75);
+    width: 1000px;
+    height: auto;
+    left: 0px;
+    top:450px;
+}
+
+#wrapper3 {
+    position: relative;
+    background-color: rgba(16, 15, 15, 0.50);
+    top: -200px;
+    width: 1000px;
+    height: auto;
+    left: 0px;
+    padding-bottom:20px;
+}
+
+.wrapper4 {
+  width: 1000px;
+  top:100px;
+  height: 400px;
+  position: relative;
+  perspective: 300px;
+}
+
+.wrapper5 {
+    position: relative;
+    top: -51px;
+    left: 200px;
+    width: 291px;
+    height: 33px;
+    text-align:left;
+    margin-top:15px;
+}
+
+.wrapper6 {
+    position: relative;
+    background: #111;
+    top: -180px;
+    width: 500px;
+    text-align: left;
+    border-radius: 20px;
+    padding: 10px 400px 10px 20px;
+    height: 270px;
+}
+
+.wrapper7 {
+    position: relative;
+    background: #111;
+    top: -150px;
+    width: 500px;
+    text-align: left;
+    border-radius: 20px;
+    padding: 10px 0px 10px 400px;
+    height: 420px;
+}
+
+.wrapper8 {
+    position: relative;
+    background-image: url("user.png");
+    background-size:cover;
+    background-color:white;
+    border-radius:30px;
+    top: -90px;
+    left: 145px;
+    width: 40px;
+    height: 40px;
+    text-align:left;
+}
+
+
+.wrapper9 {
+    position: relative;
+    border-radius:150px;
+    background-color: rgba(154, 154, 154, 0.5);
+    top: -215px;
+    width: 250px;
+    left: 520px;
+    text-align: left;
+    height: 250px;
+}
+
+.wrapper10 {
+    position: relative;
+    background-color: rgba(154, 154, 154, 0.5);
+    border-radius:150px;
+    top: -300px;
+    width: 250px;
+    left: -250px;
+    text-align: left;
+    height: 250px;
+}
+
+.wrapper11 {
+    position: relative;
+    top: 0px;
+    width: 200px;
+    left: -10px;
+    text-align: left;
+    height: 200px;
+    margin-bottom:30px;
+}
+
+
+.wrapper15 {
+  background:rgba(0, 0, 0, 0.5);
+  width: 750px;
+  top: -200px;
+  height: auto;
+  position: relative;
+  padding-top:50px;
+  padding-bottom:50px;
+}
+
+.wrapper16 {
+  background:rgba(0, 0, 0, 0.5);
+  width: 1000px;
+  top: -200px;
+  height: auto;
+  position: relative;
+  padding-top:10px;
+  padding-bottom:50px;
+}
+
+.wrapper17 {
+  width: 1000px;
+  top: -1000px;
+  height: auto;
+  position: relative;
+}
+
+.holder {
+    position: relative;
+    top: -10px;
+    left: 960px;
+    width: 291px;
+    height: 23px;
+    text-align:left;
+    margin-top:15px;
+}
+
+#wrapper h1 {
+    font-size: 1.5em;
+    position: absolute;
+    top: 5em;
+    left: 51%;
+    margin: 0 0 0 -6.8em;
+    width: 10.6em;
+    padding: 4em 0;
+    color: #fff;
+    text-align: center;
+    border: 0.3em solid #fff;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 0.3em rgba(0, 0, 0, 0.5);
+    height: 61px;
+}
+
+    #wrapper h1 strong {
+        font-size: 2.5em;
+        display: block;
+    }
+
+#access {
+    zoom: 1;
+}
+
+    #access:before, #access:after {
+        content: "";
+        display: table;
+    }
+
+    #access:after {
+        clear: both;
+    }
+
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    margin-right: 0.5em;
+    opacity: 0.2;
+}
+
+/* Defaut link style */
+#access a, #access #menu a, #menu li a {
+    background-color: #689384;
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0.5em;
+}
+
+    #access a:hover, #access #menu a:hover, #access a.skip-link.focus, #access #menu a.skip-link.focus, #menu li a:hover {
+        background-color: #b9d9ce;
+        color: #5a4741;
+    }
+
+#access {
+    font-size: 1.5em;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+    #access a.skip-link, #access #menu a.skip-link {
+        position: relative;
+        z-index: 2;
+        top: -1px;
+        left: 2px;
+    }
+
+        #access a.skip-link span, #access #menu a.skip-link span {
+            position: absolute;
+            right: 0.5em;
+            top: 0.5em;
+            -webkit-box-shadow: inset 0 0 0.5em rgba(0, 0, 0, 0.2);
+            -moz-box-shadow: inset 0 0 0.5em rgba(0, 0, 0, 0.2);
+            box-shadow: inset 0 0 0.5em rgba(0, 0, 0, 0.2);
+            padding: 0 0.3em;
+        }
+
+    #access #menu li.active a a, #access #menu li.active a a:hover, #access #menu li.active:nth-child(odd) a, #access #menu li.active:nth-child(even) a, #access #menu li.active:nth-child(odd) a:hover {
+        background-color: #5a4741;
+        color: #fff;
+        cursor: default;
+    }
+
+#menu {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+    #menu li {
+        list-style-image: none;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        -webkit-transition: max-height 500ms linear;
+        -moz-transition: max-height 500ms linear;
+        -ms-transition: max-height 500ms linear;
+        -o-transition: max-height 500ms linear;
+        transition: max-height 500ms linear;
+    }
+
+        #menu li a {
+            white-space: nowrap;
+            overflow: hidden;
+            -ms-text-overflow: ellipsis;
+            -o-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+            -moz-binding: url('xml/ellipsis.xml#ellipsis');
+        }
+
+@media only screen and (max-width: 768px) {
+    #menu {
+        -webkit-transform-style: preserve-3d;
+        -moz-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;
+        -o-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+        -webkit-transition: margin 500ms linear;
+        -moz-transition: margin 500ms linear;
+        -ms-transition: margin 500ms linear;
+        -o-transition: margin 500ms linear;
+        transition: margin 500ms linear;
+        margin-top: -1.2em;
+        overflow: hidden;
+    }
+
+        #menu li {
+            max-height: 0;
+            position: relative;
+            -webkit-transform-style: preserve-3d;
+            -moz-transform-style: preserve-3d;
+            -ms-transform-style: preserve-3d;
+            -o-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+            -webkit-perspective: 1000px;
+            -moz-perspective: 1000px;
+            -ms-perspective: 1000px;
+            -o-perspective: 1000px;
+            perspective: 1000px;
+        }
+
+            #menu li a {
+                -webkit-transform-origin: top 50%;
+                -moz-transform-origin: top 50%;
+                -ms-transform-origin: top 50%;
+                -o-transform-origin: top 50%;
+                transform-origin: top 50%;
+                -webkit-transform: rotateX(-90deg) scale(0.97);
+                -moz-transform: rotateX(-90deg) scale(0.97);
+                -ms-transform: rotateX(-90deg) scale(0.97);
+                -o-transform: rotateX(-90deg) scale(0.97);
+                transform: rotateX(-90deg) scale(0.97);
+                position: relative;
+                overflow: hidden;
+                background-color: #48665c;
+            }
+
+            #menu li:nth-child(odd) a {
+                -webkit-box-shadow: inset 0 0 4em rgba(0, 0, 0, 0.5);
+                -moz-box-shadow: inset 0 0 4em rgba(0, 0, 0, 0.5);
+                box-shadow: inset 0 0 4em rgba(0, 0, 0, 0.5);
+                -webkit-transform: rotateX(90deg) scale(0.97);
+                -moz-transform: rotateX(90deg) scale(0.97);
+                -ms-transform: rotateX(90deg) scale(0.97);
+                -o-transform: rotateX(90deg) scale(0.97);
+                transform: rotateX(90deg) scale(0.97);
+            }
+
+            #menu li.active a:before, #menu li a:hover:before {
+                opacity: 1;
+            }
+
+            #menu li a:hover:before {
+                color: #689384;
+            }
+
+            #menu li.active a:before, #menu li.active a:hover:before {
+                color: #fff;
+            }
+
+        #menu:target, #menu.target {
+            margin-top: 0;
+        }
+
+            #menu:target li, #menu.target li {
+                max-height: 2.5em;
+                height: auto;
+            }
+
+                #menu:target li a, #menu.target li a {
+                    -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
+                    -moz-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
+                    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
+                    -webkit-transform: rotateX(0) scale(1);
+                    -moz-transform: rotateX(0) scale(1);
+                    -ms-transform: rotateX(0) scale(1);
+                    -o-transform: rotateX(0) scale(1);
+                    transform: rotateX(0) scale(1);
+                }
+}
+
+@media only screen and (min-width: 769px) {
+    [class^="icon-"]:before,
+    [class*=" icon-"]:before {
+        display: block;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    #access a.skip-link {
+        display: none;
+    }
+
+    #menu {
+        width: 100%;
+        background: #689384;
+        text-align: center;
+    }
+
+        #menu li {
+            display: -moz-inline-box;
+            -moz-box-orient: vertical;
+            display: inline-block;
+            vertical-align: middle;
+            *vertical-align: auto;
+            white-space: nowrap;
+        }
+
+        #menu li {
+            *display: inline;
+        }
+
+            #menu li a:before {
+                -webkit-transition: -webkit-transform 500ms ease-in;
+                -moz-transition: -moz-transform 500ms ease-in;
+                -ms-transition: -ms-transform 500ms ease-in;
+                -o-transition: -o-transform 500ms ease-in;
+                transition: transform 500ms ease-in;
+            }
+
+            #menu li a:hover:before {
+                -webkit-transform: translateY(1em) scale(3) rotate(15deg);
+                -moz-transform: translateY(1em) scale(3) rotate(15deg);
+                -ms-transform: translateY(1em) scale(3) rotate(15deg);
+                -o-transform: translateY(1em) scale(3) rotate(15deg);
+                transform: translateY(1em) scale(3) rotate(15deg);
+            }
+}
+
+
+::-webkit-scrollbar {
+    width: 0em;
+    height: auto;
+}
+
+::-webkit-scrollbar-button {
+    background: #ccc;
+}
+
+::-webkit-scrollbar-track-piece {
+    background: #689384;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #eee;
+}
+
+.footer
+{ 
+    position: relative;
+    color:white;
+    font-size:18px;
+    height: 20px;
+    width: 100%;
+    margin: auto;
+    top:50px;
+    bottom: 0px;
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+﻿
+@import url(https://fonts.googleapis.com/css?family=Electrolize);
+
+#clock {
+   text-align: center;
+   font-size:50px;
+   font-family: 'Electrolize';
+   color:red;
+}

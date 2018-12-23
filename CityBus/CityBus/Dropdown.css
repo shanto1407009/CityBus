@@ -1,0 +1,134 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Electrolize);
+
+.wrapper12 {
+  background:rgba(0, 0, 0, 0.5);
+  width: 750px;
+  top: -150px;
+  height: 400px;
+  position: relative;
+}
+
+.wrapper13 {
+  width: 1000px;
+  top: -200px;
+  height: 100px;
+  position: relative;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+ul, ol , li {
+  list-style: none;
+}
+
+.input1 {
+  position: absolute;
+  top: 0px;
+  left: 500px;
+  width: 480px;
+}
+
+#menu {
+  margin: 20px auto;
+  width: 520px; /* backup */
+  width: calc(250px * 3); /* number of options */
+}
+
+label {
+  float: left;
+  background-color: rgb(20, 160, 250);
+  cursor: pointer;
+  width: 250px;
+  height: 40px;
+  color: #FFF;
+  font-family: 'Electrolize', sans-serif;
+  font-size: 18px;
+}
+
+label:hover .selector, input:checked + label .selector {
+  background: rgb(230, 100, 90);
+}
+
+span {
+  display: inline-block;
+  padding-top: 9px;
+  color: #E1E1E1;
+}
+label:hover span, input:checked + label span {
+  color: #FFF;
+}
+
+.selector {
+  float: left;
+  position: relative;
+  z-index: 10;
+  top: -7px;
+  left: -22px;
+  background: rgb(20, 160, 250);
+  width: 42px;
+  height: 42px;
+  border-radius: 100%;
+  border: 2px solid rgb(200, 220, 240);
+  transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+}
+
+.selector div {
+  width: 0;
+  height: 0;
+  border: 12px solid black;
+  border-color: transparent;
+  border-left-color: rgb(40, 110, 170);
+  margin: 9px 17px;
+  transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+}
+label:hover .selector div, input:checked + label .selector div {
+  border-left-color: rgb(255, 180, 180);
+}
+
+input:checked + label .selector {
+  transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+}
+
+.sub {
+  position: absolute;
+  z-index: 5;
+  background: rgb(230, 100, 90);
+  width: 250px;
+  height: 0;
+  margin-top: 8px;
+  overflow: hidden;
+  font-size: 16px;
+  transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+input:checked + label .sub {
+  height: auto;
+}
+
+.sub li {
+  padding: 10px 5px;
+}
+.sub li:hover {
+  background: rgb(235, 130, 130);
+}
+.sub li:active {
+  background: rgb(175, 90, 90);
+}
